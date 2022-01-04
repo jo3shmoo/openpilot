@@ -132,12 +132,23 @@ static int honda_rx_hook(CANPacket_t *to_push) {
             controls_allowed = 1;
           }
           break;
+        case 2: 
+          if(!(unsafe_mode & UNSAFE_SPLIT_LKAS_AND_ACC))
+          {
+            disengageFromBrakes = false;
+            controls_allowed = 0;
+            break;
+          }
+          // fallthrough
         default:
           switch(button2)
           {
             case 1: //lkas_button
               if (acc_main_on) {
-                controls_allowed = 1;
+                if(unsafe_mode & UNSAFE_SPLIT_LKAS_AND_ACC)
+                {
+                  controls_allowed = 1;
+                }
               }
               break;
             default:
