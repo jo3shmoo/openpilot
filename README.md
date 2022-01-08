@@ -19,6 +19,7 @@ Table of Contents
 
 What does this fork do?
 ------
+Tweaked personal version of spektor56's excellent fork to configure interface and power settings the way I prefer.
 
 The purpose of this fork is to make the transition from Honda Safety Sense to openpilot as seamless as possible. All the information necessary to operate the system can be found in the vehicles owners manual. This fork replicates the behaviour of Honda Safety Sense as accurately as possible with the following changes:
 
@@ -35,11 +36,11 @@ The purpose of this fork is to make the transition from Honda Safety Sense to op
 
 Installation Instructions
 ------
-Install openpilot on a supported device by entering https://installer.comma.ai/spektor56/0.8.12-devel-honda or https://smiskol.com/fork/spektor56 during the installer setup.
+Install openpilot on a supported device by entering https://installer.comma.ai/jo3shmoo/0.8.12-jk-honda or https://smiskol.com/fork/jo3shmoo during the installer setup.
 
 Donate
 ------
-If you find any of this useful feel free to donate to support future development
+If you find any of this useful feel free to donate to spektor56 to support future development
 
 <a href='https://ko-fi.com/M4M55991G' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> - Ko-fi
 
